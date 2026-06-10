@@ -107,7 +107,7 @@ This is the most important mental model in Kubernetes. Understanding this one fl
 
 > **Key insight:** No component talks directly to another. Everything communicates through etcd via the API server. This is what makes Kubernetes resilient
 
-![`kubectl apply` to Running Pod](./images/reconciliation_loop.png)
+![`kubectl apply` to Running Pod](images/reconciliation_loop.png)
 
 **Step 1 - kubectl sends the request**
 - Kubectl reads your YAML, does client-side schema validation
